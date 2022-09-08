@@ -1,2 +1,2 @@
 #!/bin/bash
-./a.out > c
+gcc $CFILE -o c
