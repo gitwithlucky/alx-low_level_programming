@@ -1,7 +1,11 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return input to stdout
+*/
 int main(void)
 {
-/* Return input to stdout */
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
