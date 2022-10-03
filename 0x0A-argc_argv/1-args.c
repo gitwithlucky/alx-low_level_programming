@@ -1,4 +1,3 @@
-#int _putchar(char c);include "main.h"
 #include <stdio.h>
 #define UNUSED(x) (void)(x)
 
