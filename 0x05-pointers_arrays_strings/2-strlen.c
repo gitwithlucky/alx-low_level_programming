@@ -1,18 +1,17 @@
+#include "main.h"
+
 /**
-* _strlen - reset_to_98
-* Description: '_strlen'
-* @s: ptr
-* Return:  0
-*/
+ * _strlen - gets character string
+ *
+ * @s: character to getstring
+ * Return: returns length
+ */
 
 int _strlen(char *s)
 {
-	int count = 0;
-	while (*s != '\0')
-	{
-		count++;
-		s++;
-	}
-	return (count);
-}
+	int i;
 
+	for (i = 0; s[i] != '\0'; i++)
+	{}
+	return (i);
+}

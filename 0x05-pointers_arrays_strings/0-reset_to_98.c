@@ -1,12 +1,12 @@
+#include "main.h"
+
 /**
-* reset_to_98 - reset_to_98
-* Description: 'reset_to_98'
-* @ptr: ptr
-* Return:  0
-*/
+ * reset_to_98 - resets value to 98
+ *
+ * @n: pointer integer
+ */
 
-void reset_to_98(int *ptr)
+void reset_to_98(int *n)
 {
-	*ptr = 98;
+	*n = 98;
 }
-
